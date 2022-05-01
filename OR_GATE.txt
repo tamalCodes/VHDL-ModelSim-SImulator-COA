@@ -1,0 +1,12 @@
+Library IEEE;
+    use IEEE.std_logic_1164.all;
+    entity ORgate is
+        port(A: in std_logic;
+            B: in std_logic;
+            C: out std_logic);
+        end ORgate;
+        
+        architecture orLogic of ORgate is
+            begin
+                C<=A OR B;
+            end orLogic;
