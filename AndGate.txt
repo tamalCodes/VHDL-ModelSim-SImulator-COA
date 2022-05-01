@@ -1,0 +1,12 @@
+Library IEEE;
+    use IEEE.std_logic_1164.all;
+    
+    entity ag is
+        port(A,B: in std_logic;
+            C: out std_logic);
+        end ag;
+        
+        architecture andlogic of ag is
+            begin
+                c<= A AND B;
+            end andLogic;

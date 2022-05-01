@@ -1,0 +1,12 @@
+Library IEEE;
+    use IEEE.std_logic_1164.all;
+    
+    entity nd is
+        port(A,B: in std_logic;
+            C: out std_logic);
+        end nd;
+        
+        architecture nandlogic of nd is
+            begin
+                c<=A NAND B;
+            end nandlogic;
